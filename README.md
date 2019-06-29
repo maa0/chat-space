@@ -49,7 +49,7 @@ Things you may want to cover:
 - has_many :messages
 - has_many :members
 
-## groupテーブル
+## groupsテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -61,7 +61,7 @@ Things you may want to cover:
 - has_many :users, through: members
 - has_many :messages
 
-## messageテーブル
+## messagesテーブル
 
 |Column|Type|Options|
 |------|----|-------|
