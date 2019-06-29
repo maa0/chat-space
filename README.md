@@ -58,7 +58,7 @@ Things you may want to cover:
 
 ### Association
 
-- has_many :users
+- has_many :users, through: members
 - has_many :messages
 
 ## messageテーブル
